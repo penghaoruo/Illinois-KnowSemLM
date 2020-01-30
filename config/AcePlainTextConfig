@@ -1,0 +1,28 @@
+# If the Threashold is lower, the system tends to 
+
+CorefThreshold = -6
+
+# The directory to store the output
+OutputDirName = CorefAnnotation
+
+# Ace / Ontonotes
+AnnotationFormat = Ace
+
+# No need to tune the parameters.
+TUNE = FALSE
+
+# provide three different representations of the  annotation
+# Ace, BCub, Wino, Vincent
+OutputFormat = BCub
+
+# No gold mentions are provided.
+UseGoldMentions = false
+
+# ILP / ILPAddCon / Cluster
+InferenceMethod = Cluster
+
+AceCorefModel = RelationModel/IllinoisAce
+
+GigaWordQueryStore = tmp.txt
+
+GigaWordThreshold = 100

@@ -1,0 +1,1 @@
+python lbl.py -v --word_dim 100 --context_sz 2 --rate_update simple --batch_size 10000 --patience 10000 --patience_incr 2 --improvement_thrs 0.995 --validation_freq 100 --vocab ../vocab-srl.txt --write_num 500 --model lbl-srl.lm ../SRL_DOC.txt ../SRL_DOC_test_tmp.txt ../SRL_DOC_test_tmp.txt
